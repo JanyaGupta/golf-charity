@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🏌️ GolfCharity — Play Golf. Win Rewards. Change Lives.
 
 A full-stack production-ready charity golf subscription platform built with Next.js 14, Supabase, and Stripe.
@@ -262,3 +263,6 @@ PRs welcome. Please open an issue first.
 ## 📄 License
 
 MIT © GolfCharity Ltd
+=======
+# golf-charity
+>>>>>>> dab0e28ec94e4d3dcd94185f186e2ff1f0504cc4
