@@ -54,7 +54,7 @@ export async function POST(request: NextRequest) {
 
         // Increase prize pool
         const monthlyAdd = plan === "yearly" ? Math.floor(8988 * 0.5 / 12) : Math.floor(999 * 0.5);
-        await supabase.rpc("increment_prize_pool", { amount: monthlyAdd }).catch(() => {});
+        await supabase.rpc("increment_prize_pool", { amount: monthlyAdd });
 
         break;
       }
